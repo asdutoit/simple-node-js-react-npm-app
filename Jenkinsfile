@@ -30,6 +30,14 @@ pipeline {
                 }
             }
         }
+        stage('Production') {
+            steps {
+                withAWS(region:'af-south-1',credentials:'cicd_creds') {
+                    s3Delete(bucket: 'cicd-jenkins-tutorial', path:'**/*')
+                    s3Upload(bucket: 'cicd-jenkins-tutorial', workingDir:'build', includePathPattern:'**/*');
+                }
+            }
+        }
     }
 }
 
