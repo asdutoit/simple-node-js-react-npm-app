@@ -1,5 +1,3 @@
-// ======== THIS SECTION IS PART OF How to setup CI/CD for React using Jenkins and Docker on AWS S3:  https://www.yatis.io/how-to-setup-ci-cd-for-react-using-jenkins-and-docker-on-aws-s3/ =========
-
 pipeline {
     agent {
         docker {
