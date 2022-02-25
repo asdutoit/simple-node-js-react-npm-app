@@ -12,6 +12,8 @@ class App extends Component {
           <h1 className="App-title">Welcome to the new finished React App</h1>
           <h1 className="App-title">Welcome to the new finished React App</h1>
           <h1 className="App-title">Welcome to the new finished React App</h1>
+          <h1 className="App-title">Welcome to the new finished React App</h1>
+          <h1 className="App-title">Welcome to the new finished React App</h1>
           <a href="https://www.google.co.za/">Google</a>
         </header>
         <p className="App-intro">
